@@ -1,6 +1,6 @@
 {
   "name": "podSourceCode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of podSourceCode.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "git remote add origin https://github.com/zhouluyao2020/podSourceCode.git",
@@ -12,8 +12,8 @@
     "437001178@qq.com": "zly77153@offcn.com"
   },
   "source": {
-    "git": "cd https://github.com/zhouluyao2020/podSourceCode.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/zhouluyao2020/podSourceCode.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
