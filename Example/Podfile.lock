@@ -18,25 +18,25 @@ PODS:
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
   - M3U8Kit (0.4.1)
-  - podSourceCode (0.1.2):
+  - podSourceCode (0.1.3):
     - AFNetworking (~> 3.1.0)
     - FMDB (~> 2.5)
     - M3U8Kit (~> 0.4.0)
-    - podSourceCode/BackgroundTask (= 0.1.2)
-    - podSourceCode/Database (= 0.1.2)
-    - podSourceCode/Helper (= 0.1.2)
+    - podSourceCode/BackgroundTask (= 0.1.3)
+    - podSourceCode/Database (= 0.1.3)
+    - podSourceCode/Helper (= 0.1.3)
     - YYKit (~> 1.0.9)
-  - podSourceCode/BackgroundTask (0.1.2):
-    - AFNetworking (~> 3.1.0)
-    - FMDB (~> 2.5)
-    - M3U8Kit (~> 0.4.0)
-    - YYKit (~> 1.0.9)
-  - podSourceCode/Database (0.1.2):
+  - podSourceCode/BackgroundTask (0.1.3):
     - AFNetworking (~> 3.1.0)
     - FMDB (~> 2.5)
     - M3U8Kit (~> 0.4.0)
     - YYKit (~> 1.0.9)
-  - podSourceCode/Helper (0.1.2):
+  - podSourceCode/Database (0.1.3):
+    - AFNetworking (~> 3.1.0)
+    - FMDB (~> 2.5)
+    - M3U8Kit (~> 0.4.0)
+    - YYKit (~> 1.0.9)
+  - podSourceCode/Helper (0.1.3):
     - AFNetworking (~> 3.1.0)
     - FMDB (~> 2.5)
     - M3U8Kit (~> 0.4.0)
@@ -63,7 +63,7 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   M3U8Kit: c02e637550fbe8da9acc4b73b6392f03a773bfb9
-  podSourceCode: a9ca9b3b67f78f04af0e744ba51be5ca24085dd2
+  podSourceCode: fad0f15485d8585a87455f30035af3d192f7ab34
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
 PODFILE CHECKSUM: eea14c728658e45ae2eaaf65f06b1fe589cb8db7
