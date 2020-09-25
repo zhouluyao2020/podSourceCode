@@ -1,0 +1,6 @@
+framework module podSourceCode {
+  umbrella header "podSourceCode-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,12 +7,14 @@
 //
 
 #import "ZGAppDelegate.h"
+#import <podSourceCode/ZGDownloadManager.h>
 
 @implementation ZGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[ZGDownloadManager sharedManager]allowDownloadViaWWAN];
     return YES;
 }
 

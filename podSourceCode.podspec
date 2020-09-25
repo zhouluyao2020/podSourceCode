@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/437001178@qq.com/podSourceCode'
+  s.homepage         = 'git remote add origin https://github.com/zhouluyao2020/podSourceCode.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '437001178@qq.com' => 'zly77153@offcn.com' }
-  s.source           = { :git => 'https://github.com/437001178@qq.com/podSourceCode.git', :tag => s.version.to_s }
+  s.source           = { :git => 'cd https://github.com/zhouluyao2020/podSourceCode.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -39,4 +39,9 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.dependency 'AFNetworking', '~> 3.1.0'
+  s.dependency 'YYKit', '~> 1.0.9'
+  s.dependency 'FMDB', '~> 2.5'
+  s.dependency 'M3U8Kit', '~> 0.4.0'
 end

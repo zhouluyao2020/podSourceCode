@@ -1,0 +1,36 @@
+{
+  "name": "podSourceCode",
+  "version": "0.1.0",
+  "summary": "A short description of podSourceCode.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "git remote add origin https://github.com/zhouluyao2020/podSourceCode.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "437001178@qq.com": "zly77153@offcn.com"
+  },
+  "source": {
+    "git": "cd https://github.com/zhouluyao2020/podSourceCode.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "podSourceCode/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.1.0"
+    ],
+    "YYKit": [
+      "~> 1.0.9"
+    ],
+    "FMDB": [
+      "~> 2.5"
+    ],
+    "M3U8Kit": [
+      "~> 0.4.0"
+    ]
+  }
+}
