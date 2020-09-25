@@ -1,6 +1,6 @@
 {
   "name": "podSourceCode",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of podSourceCode.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "git remote add origin https://github.com/zhouluyao2020/podSourceCode.git",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/zhouluyao2020/podSourceCode.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "podSourceCode/Classes/**/*",
+  "source_files": "podSourceCode/Classes/*.{h,m}",
   "dependencies": {
     "AFNetworking": [
       "~> 3.1.0"
@@ -32,5 +32,19 @@
     "M3U8Kit": [
       "~> 0.4.0"
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "BackgroundTask",
+      "source_files": "podSourceCode/Classes/BackgroundTask/*.{h,m}"
+    },
+    {
+      "name": "Database",
+      "source_files": "podSourceCode/Classes/Database/*.{h,m}"
+    },
+    {
+      "name": "Helper",
+      "source_files": "podSourceCode/Classes/Helper/*.{h,m}"
+    }
+  ]
 }
