@@ -30,7 +30,19 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'podSourceCode/Classes/**/*'
+  s.source_files = 'podSourceCode/Classes/*.{h,m}'
+  
+  s.subspec 'BackgroundTask' do |s|
+     s.source_files = 'podSourceCode/Classes/BackgroundTask/*.{h,m}'
+   end
+  
+  s.subspec 'Database' do |s|
+     s.source_files = 'podSourceCode/Classes/Database/*.{h,m}'
+   end
+  
+  s.subspec 'Helper' do |s|
+     s.source_files = 'podSourceCode/Classes/Helper/*.{h,m}'
+   end
   
   # s.resource_bundles = {
   #   'podSourceCode' => ['podSourceCode/Assets/*.png']
